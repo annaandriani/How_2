@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:  #e0eafc;
+    margin: 0px 0px 30px 0px;
+    height: 40px;
+    font-weight:normal;
+    
+}
+      
+
+.jumbotron{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient( #e0eafc, #cfdef3);
+}
+
+table{
+    table-layout: auto;
+    width: 180px;
+    align-items: center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+button{
+    background-color: lightskyblue;
+    border:lightyellow;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      }
+
