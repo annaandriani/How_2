@@ -4,25 +4,32 @@
 <head>
 
 <div class="jumbotron">
+    <style>.jumbotron{font-family: 'Pacifico', cursive;background-image: url(https://i.pinimg.com/originals/b4/50/0d/b4500d248488c6c298e313ab0fb7668f.jpg);
+    }</style>
     <h1 class="title">Aroca's Embalagens</h1>      
     <p> Sua festa começa aqui! </p>
   </div>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/home/anna/Downloads/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="https://raw.githubusercontent.com/annaandriani/How_2/master/imagens/favicon.ico" type="image/ico" sizes="16x16">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/home/anna/Downloads/how/style.css">
+        <link rel="stylesheet" href="">
     <title>Loja Aroca's Embalagens</title>
 </head>
 
 <body>
+    <style> body{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center; background-color:  white; margin: 0px 0px 30px 0px;height: 40px;font-weight:normal;} </style>
+    
     <!-- Menu -->
+    <style>.Menu{background-image: url(https://i.pinimg.com/originals/b4/50/0d/b4500d248488c6c298e313ab0fb7668f.jpg);
+    }</style>
     <nav class="navbar navbar-expand-lg navbar-light bg-trasnparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
@@ -171,6 +178,7 @@
     <form>
         <td><h6> Ficou com alguma dúvida? Deixe seus dados aqui que entraremos em contato! </h6></td>
         <table>
+            <style> table{table-layout: auto; width: 180px; align-items: center; margin-left:auto; margin-right:auto;</style>
             <tr>
                 
                 <td><label for="nome"> Nome: </label></td>
@@ -186,7 +194,30 @@
        
 
       </form>
-    <script type="text/javascript" src="/home/anna/Downloads/how/javascript.js"></script>
+      <style>button{ background-color: lightskyblue; border:lightyellow; color: white; padding: 15px 32px; text-align: center; text-decoration: none;
+    display: inline-block; font-size: 16px;
+      }
+    #Contatos{
+        background-color: lightskyblue;
+    }
+    .card-header{
+        background-color: white;
+    </style>
+
+
+    <script> document.getElementById("botaoEnviar").addEventListener("click", validaFormulario)
+
+    function validaFormulario(){
+      if(document.getElementById("nome").value != "" && document.getElementById("email").value != "" && document.getElementById("telefone").value != ""){
+        alert("prontinho, entraremos em contato para esclarecer suas dúvidas!")
+      }else{
+        alert("por favor, insira seu nome e email!")
+    
+        }
+    }
+    function voltar() {
+        window.history.back();
+            }</script>
 
 
 </body>
